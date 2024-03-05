@@ -28,4 +28,4 @@ echo "Underscore di floating point : ";
 var_dump(1_123.123);
 
 echo "Integer Overflow : ";
-var_dump(9223372036854775808);
+var_dump(9223372036854775);
