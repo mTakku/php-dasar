@@ -627,6 +627,24 @@ Referensi dibuat dengan menggunakan karakter &.
 > Berikut kode returning refrences :
 >
 > ![image](https://github.com/mTakku/php-dasar/assets/145539342/e042bcbe-5096-46aa-bb23-369266c8cf1c)
+---
+<p align="center" >
+  <b>PERTANYAAN DAN CATATAN TAMBAHAN</b>
+</p>
+
+---
+
+> - Mungkin agak lama untuk menghafal sebagian kodenya
+
+---
+
+<p align="center" >
+  <b>KESIMPULAN</b>
+</p>
+
+---
+
+> - fungsi utama PHP adalah untuk membangun situs web yang dinamis. Dengan PHP, kamu dapat membuat halaman web yang dapat berinteraksi dengan pengguna, menampilkan konten yang berubah secara real-time, dan mengakses basis data untuk mengambil atau menyimpan informasi.
 
 
 
