@@ -26,6 +26,6 @@ function sampleFunction(string $name): string {
     return "Sample $name";
 }
 
-sayHello("Gusti", "sampleFunction");
-sayHello("Gusti", "strtoupper");
-sayHello("Gusti", "strtolower");
+sayHello("Farel", "sampleFunction");
+sayHello("Farel", "strtoupper");
+sayHello("Farel", "strtolower");

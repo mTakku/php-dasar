@@ -1,6 +1,6 @@
 <?php
 
-$names = ["Gusti", "Alifiraqsha", "Akbar"];
+$names = ["Farel", "Mercys", "Putra"];
 
 for ($i = 0; $i < count($names); $i++) {
     echo "Data ke $i = $names[$i]" . PHP_EOL;
@@ -15,9 +15,9 @@ foreach ($names as $name) {
 }
 
 $person = [
-    "first_name" => "Gusti",
-    "middle_name" => "Alifiraqsha",
-    "last_name" => "Akbar"
+    "first_name" => "Farel",
+    "middle_name" => "Mercys",
+    "last_name" => "Putra"
 ];
 
 foreach ($person as $key => $value) {

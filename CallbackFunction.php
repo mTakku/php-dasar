@@ -6,9 +6,9 @@ function sayHello(string $name, callable $filter)
     echo "Hello $finalName" . PHP_EOL;
 }
 
-sayHello("Gusti", "strtoupper");
-sayHello("Gusti", "strtolower");
-sayHello("Gusti", function (string $name): string {
+sayHello("Farel", "strtoupper");
+sayHello("Farel", "strtolower");
+sayHello("Farel", function (string $name): string {
     return strtoupper($name);
 });
 sayHello("Eko", fn($name) => strtoupper($name));

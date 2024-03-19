@@ -1,6 +1,6 @@
 <?php
 
-define("AUTHOR", "Gusti Alifiraqsha Akbar");
+define("AUTHOR", "Farel Mercys Putra Thona");
 define("APP_VERSION", 100);
 
 echo "Author : ";
@@ -10,3 +10,4 @@ echo "\n";
 echo "App Version : ";
 echo APP_VERSION;
 echo "\n";
+

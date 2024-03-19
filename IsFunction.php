@@ -1,6 +1,6 @@
 <?php
 
-$data = "Gusti";
+$data = "Farel";
 
 var_dump(is_string($data));
 var_dump(is_bool($data));

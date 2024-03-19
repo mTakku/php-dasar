@@ -5,9 +5,9 @@ function sayHello($firstName, $lastName = "")
     echo "Hello $firstName $lastName" . PHP_EOL;
 }
 
-sayHello("Gusti");
-sayHello("Alifiraqsha");
-sayHello("Gusti", "Alifiraqsha");
+sayHello("Farel");
+sayHello("Mercys");
+sayHello("Farel", "Mercys");
 
 function sum(int $first, int $last)
 {
@@ -32,3 +32,4 @@ $values = [1, 2, 3, 4, 5];
 
 sumAll(1, 2, 3, 4, 5);
 sumAll(...$values);
+

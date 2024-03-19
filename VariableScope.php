@@ -1,6 +1,6 @@
 <?php
 
-$name = "Gusti"; // global scope
+$name = "Farel"; // global scope
 
 function sayHello()
 {

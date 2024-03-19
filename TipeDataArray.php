@@ -3,25 +3,22 @@
 $values = array(10, 9, 8, 7.5);
 var_dump($values);
 
-$names = ["Gusti", "Alifiraqsha", "Akbar"];
+$names = ["Farel", "Mercys", "Putra", "Thona"];
 var_dump($names);
 
 var_dump($names[0]);
 
-$names[0] = "Elaina";
+$names[0] = "Zeta";
 var_dump($names);
-
 unset($names[1]);
 var_dump($names);
-
-$names[] = "Kiana";
+$names[] = "Vestia";
 var_dump($names);
-
 var_dump(count($names));
 
 $eko = array(
-    "id" => "gusti",
-    "name" => "Gusti Alifiraqsha",
+    "id" => "farel",
+    "name" => "Farel Mercys",
     "age" => 30,
     "address" => array(
         "city" => "Bogor",
@@ -33,13 +30,13 @@ var_dump($eko);
 var_dump($eko["name"]);
 var_dump($eko["address"]["country"]);
 
-$budi = [
-    "id" => "elaina",
-    "name" => "Elaina Desuka",
-    "age" => 35,
+$zeta = [
+    "id" => "007",
+    "name" => "Vestia Zeta",
+    "age" => 18,
     "address" => [
-        "city" => "Isekai",
+        "city" => "hololive",
         "country" => "Indonesia"
     ]
 ];
-var_dump($budi);
+var_dump($zeta);

@@ -1,7 +1,7 @@
 <?php
 
-$firstName = "Gusti";
-$lastName = "Alifiraqsha";
+$firstName = "Farel";
+$lastName = "Mercys";
 
 $anonymousFunction = function () use ($firstName, $lastName) : string {
     return "Hello $firstName $lastName" . PHP_EOL;

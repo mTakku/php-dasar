@@ -1,10 +1,10 @@
 <?php
 
-$name = "Gusti";
+$name = "Farel";
 
 $otherName = &$name;
 
-$otherName = "Farel";
+$otherName = "Gusti";
 
 echo $name . PHP_EOL;
 

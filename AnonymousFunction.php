@@ -4,8 +4,8 @@ $sayHello = function (string $name) {
     echo "Hello $name" . PHP_EOL;
 };
 
-$sayHello("Elaina");
-$sayHello("Kiana");
+$sayHello("Vestia");
+$sayHello("Zeta");
 
 function sayGoodBye(string $name, $filter)
 {
@@ -13,17 +13,17 @@ function sayGoodBye(string $name, $filter)
     echo "Good bye $finalName" . PHP_EOL;
 }
 
-sayGoodBye("Elaina", function (string $name): string {
+sayGoodBye("Zeta", function (string $name): string {
     return strtoupper($name);
 });
 
 $filterFunction = function (string $name): string {
     return strtoupper($name);
 };
-sayGoodBye("Elaina", $filterFunction);
+sayGoodBye("Zeta", $filterFunction);
 
-$firstName = "Gusti";
-$lastName = "Alifiraqsha";
+$firstName = "Farel";
+$lastName = "Mercys";
 
 $sayHelloEko = function () use ($firstName, $lastName) {
     echo "Hello $firstName $lastName" . PHP_EOL;

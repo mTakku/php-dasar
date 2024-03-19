@@ -2,7 +2,7 @@
 
 function createName()
 {
-    $name = "Gusti"; // local scope
+    $name = "Farel"; // local scope
 }
 
 createName();

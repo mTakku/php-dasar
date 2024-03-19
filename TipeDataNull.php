@@ -1,6 +1,6 @@
 <?php
 
-$name = "Gusti";
+$name = "Farel";
 $name = null;
 
 $age = null;
@@ -20,7 +20,7 @@ echo "\n";
 $contoh = "Eko";
 unset($contoh);
 
-$contoh = "Alifiraqsha";
+$contoh = "Mercys";
 $contoh = null;
 
 var_dump(isset($contoh));
